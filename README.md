@@ -1,2 +1,137 @@
-# React-Opas
-Suomenkielinen opas ReactJS / React käyttöönottoon
+# ReactJS Kehitysympäristön pystyttäminen
+### Suomenkielinen opas ReactJS / React käyttöönottoon
+
+
+
+## Ladattava ja asennettava tässä järjestyksessä
+
+* [Git](https://git-scm.com) Versionhallintaa varten
+* [NodeJS](https://nodejs.org/en/download) tarvitaan paketinhallintaa ja lokaalia serveriä varten
+* [Yarn](https://yarnpkg.com/lang/en/) paketinhallintaan
+* [GitKraken](https://gitkraken.com) Graafinen GIT clientti, joka helpottaa elämää **(vapaaehtoinen)**
+
+
+
+### IDE
+
+[Visual Studio Code](https://code.visualstudio.com/download) 
+
+
+
+#### Suositellut laajennukset (Extensions)
+
+* **Debugger for Chrome** (debuggausta varten)
+* **ESLint** - ilmoittaa virheistä ja parhaansa mukaan ehdottaa korjauksia
+* **GitLens** - kätevä 
+* **Prettier** - tekee koodista mahdollisimman nättiä
+* **vscode-icons** - iconi paketti jotta hakemistot erottaa paremmin toisistaan.
+* **GitKreaken Glo** - integroi GitKrakenin Glo Boardin, jotta pääsee helposti katsomaan mitä kaikkia taskeja on projektille määritelty.
+
+
+
+Suositeltu selain on Google Chrome, johon on hyvä ladata pari laajennusta:
+
+[React Developer Tools](<https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi>
+) 
+
+[Redux Devtools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) 
+
+
+
+### create-react-app Asennus
+
+Jos haluat luoda React-projektin, tulee sinun ensin asentaa "create-react-app" käyttäen esimerkiksi nodejs asennuksen mukana tullutta npm-paketinhallinta työkalua.
+
+```
+npm install -g create-react-app
+
+// -g tarkoittaa global
+```
+
+
+
+### React projekin luominen
+
+1. Avaa Visual Studio Code
+2. File -> Open Folder - navigoi kansioon johon haluat luoda React-projektisi kansion
+3. Avaa Visual Studio Coden terminaali (Ctrl + Ö)
+4. Luo projekti seuraavalla komennolla:
+5. ```create-react-app projekti```
+6. navigoi luomaasi kansioon
+7. ```cd projekti```
+8. aja yarn komento
+9. ``yarn``
+10. Yarn hakee kaikki package.jsonissa määritellyt paketit ja pitää huolen niiden riippuvuuksista.
+11. React projekti on valmis ajettavaksi komennolla:
+12. ```yarn start``` 
+
+Sivu löytyy localhost:3000 osoitteesta oletuksena.
+
+
+
+### Yarn
+
+Yarn on nopeaan ja turvalliseen paketinhallintaan tarkoitettu sovellus jonka käyttö on äärimmäisen helppoa komentoriviltä. Mikäli kyseessä on paketti jota tarvitaan vain devaukseen, eikä production buildissa, voidaan käyttää flagia -D tai --save-dev
+
+
+
+Yleisimpiä komentoja:
+
+**Aloita uusi projekti** (tätä ei create-react-appin kanssa tarvi tehdä)
+
+```yarn init```
+
+
+
+**Asenna/tarkista kaikki moduulit ja riippuvuudet**
+
+``yarn`` 
+
+tai
+
+```yarn install``` 
+
+
+
+Paketin / riippuvuuden lisääminen
+
+```yarn add paketti```
+
+```yarn add paketti@versionumero (esim @1.0.0)```
+
+```yarn add paketti@tagi```
+
+
+
+Paketin / riippuvuuden lisääminen eri riippuvuus kategorioihin
+
+```yarn add paketti --dev```		(devDependencies)
+
+```yarn add paketti --peer```		(peerDependencies)
+
+```yarn add paketti --optional```	(optionalDependencies)
+
+
+
+Paketin / riippuvuuden päivittäminen
+
+```yarn upgrade paketti```
+
+```yarn upgrade paketti@versio (esim @1.0.0) ```
+
+```yarn upgrade paketti@tagi```
+
+
+
+Paketin / riippuvuuden poistaminen
+
+```yarn remove paketti```
+
+
+
+yarn 
+
+
+
+
+
