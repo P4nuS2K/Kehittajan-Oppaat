@@ -9,6 +9,6 @@ Tulen päivittämään tähän lisää tietoa myös ite Reactin käytöstä, sit
 Toivottavasti näistä on hyötyä,
 
 ----------------------------------
-Panu Siik
-Software Developer
-Alfame Systems Oy
+Panu Siik  
+Software Developer  
+Alfame Systems Oy  
