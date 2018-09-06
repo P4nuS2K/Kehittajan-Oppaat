@@ -1,6 +1,9 @@
 # Suomenkielisiä aloittelevan kehittäjän oppaita
 
-Tervetuloa GitHub sivulleni. Ilmeni tarve suomenkieliselle React käyttöönotto oppaalle ja tässä semmoinen nyt sitten olisi.
+Tervetuloa GitHub sivulleni. Ilmeni tarve suomenkielisille kehittäjän oppaille ja täältä niitä nyt sitten löytyy.
+Aihealueina tällä hetkellä
+* ReactJS lokaalin kehitysympäristön pystyttäminen
+* Webpack lokaalin kehitysympäristön pystyttäminen HTML5/JavaScript projekteille
 
 Tulen päivittämään tähän lisää tietoa myös ite Reactin käytöstä, sitä mukaan kun ehdin.
 
