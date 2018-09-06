@@ -4,7 +4,7 @@ Tervetuloa GitHub sivulleni. Ilmeni tarve suomenkieliselle React käyttöönotto
 
 Tulen päivittämään tähän lisää tietoa myös ite Reactin käytöstä, sitä mukaan kun ehdin.
 
-[Wiki](https://github.com/Syphex88/React-Opas/wiki)
+[Oppaat](https://github.com/Syphex88/Kehittajan-Oppaat/wiki/Oppaat)
 
 Toivottavasti näistä on hyötyä,
 
